@@ -1,0 +1,51 @@
+* { }
+
+.vied {
+    margin: auto;
+    text-align: center;
+    width: 60%;
+    height: 700px;
+    background-color: #333;
+    color: white;
+    border: 2px solid black;
+    border-radius: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+.vied a {
+    color: white;
+    font-weight: 800;
+    text-decoration: none;
+    padding: 14px 17px;
+    border: 3px white solid;
+    border-radius: 25px;
+    text-transform: uppercase;
+}
+
+.vied a:hover {
+    background-color: burlywood;
+    transition: all;
+    transition-duration: 0.5s;
+    color: black;
+}
+
+.vied hr {
+    border: 4px orangered solid;
+    border-radius: 25px;
+    box-shadow: 0px 0px 5px 5px orangered;
+    width: 90%;
+    margin: auto;
+}
+
+.vied img {
+    border: orangered 6px solid;
+    border-radius: 25px;
+}
+
+.vied img:hover {
+    border: orangered 6px solid;
+    border-radius: 25px;
+    opacity: 50%;
+}
